@@ -10,8 +10,8 @@
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_internet_ingestion_enabled"></a> [internet\_ingestion\_enabled](#input\_internet\_ingestion\_enabled) | (Optional) Should the log analytics workspace support ingestion over the public internet. | `bool` | `true` | no |
-| <a name="input_internet_query_enabled"></a> [internet\_query\_enabled](#input\_internet\_query\_enabled) | (Optional) Should the log analytics workspace support querying over the public internet. | `bool` | `true` | no |
+| <a name="input_internet_ingestion_enabled"></a> [internet\_ingestion\_enabled](#input\_internet\_ingestion\_enabled) | (Optional) Should the log analytics workspace support ingestion over the public internet. | `bool` | `false` | no |
+| <a name="input_internet_query_enabled"></a> [internet\_query\_enabled](#input\_internet\_query\_enabled) | (Optional) Should the log analytics workspace support querying over the public internet. | `bool` | `false` | no |
 | <a name="input_location"></a> [location](#input\_location) | (Required) The location of the log analytics workspace. | `string` | n/a | yes |
 | <a name="input_name"></a> [name](#input\_name) | (Required) The name of the log analytics workspace. | `string` | n/a | yes |
 | <a name="input_resource_group_name"></a> [resource\_group\_name](#input\_resource\_group\_name) | (Required) The resource group name of the log analytics workspace. | `string` | n/a | yes |
